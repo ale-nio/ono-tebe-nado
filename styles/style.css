@@ -39,7 +39,8 @@ main {
     display: block;
     justify-self: center;
     align-self: center;
-    width: 140px;
+    width: 148px;
+    height:105px;
   }
   
   .header__logo-image {
@@ -196,26 +197,23 @@ main {
   
   .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+   
   }
   
   .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
   }
   
   .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   
   .card__text {
     position: relative;
     color: #FFF;
     font-size: 20px;
+    line-height:120% ;
     line-height:24px;
     text-decoration: none;
   }
@@ -225,9 +223,9 @@ main {
     z-index: 1;
     color: #FFF;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 120%;
-    text-decoration-line: underline;
+    text-decoration: underline;
     text-transform: uppercase;
   }
   
@@ -235,9 +233,8 @@ main {
     display: block;
     margin: 30px 0 0 40px;
     font-size: 20px;
-    text-decoration-line: underline;
+    text-decoration: underline;
     text-underline-position: under;
-    width: fit-content;
   }
   
   .about {
@@ -267,6 +264,7 @@ main {
   
   .about__logo-image {
     width: 148px;
+    height: 148px;
   }
   
   .about__title {
@@ -282,11 +280,7 @@ main {
     flex-direction: column;
     gap: 25px;
   }
-  
-  .about__text p {
-    font-size: 20px;
-    line-height: normal;
-  }
+
   
   .footer {
     display: flex;
@@ -295,6 +289,12 @@ main {
     padding: 180px 50px 80px;
   }
   
+.footer__address{
+  display: block;
+ width:240.52px;
+ height: 98px;
+}
+
   .footer__social-icon {
     width: auto;
     height: 48px;
