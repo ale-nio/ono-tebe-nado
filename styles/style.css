@@ -197,23 +197,26 @@ main {
   
   .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-   
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .card__text {
     position: relative;
     color: #FFF;
     font-size: 20px;
-    line-height:120% ;
     line-height:24px;
     text-decoration: none;
   }
@@ -223,9 +226,9 @@ main {
     z-index: 1;
     color: #FFF;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 120%;
-    text-decoration: underline;
+    text-decoration-line: underline;
     text-transform: uppercase;
   }
   
@@ -233,8 +236,9 @@ main {
     display: block;
     margin: 30px 0 0 40px;
     font-size: 20px;
-    text-decoration: underline;
+    text-decoration-line: underline;
     text-underline-position: under;
+    width: fit-content;
   }
   
   .about {
@@ -263,7 +267,7 @@ main {
   }
   
   .about__logo-image {
-    width: 148px;
+    width: 148px;px;
     height: 148px;
   }
   
