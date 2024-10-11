@@ -68,10 +68,12 @@
 }
 
 .header__links-list {
-  display: flex;
-  align-items: center;
-  gap: 10px 33px;
-  list-style: circle;
+ font-size:18px;
+ display:flex;
+ gap:32px;
+ flex-direction: row;
+ white-space: nowrap;
+ list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -104,6 +106,10 @@
 }
 
 .header__address {
+  margin-left:68px;
+  font-size: 18px;
+  font-style: normal;
+
   justify-self: end;
 }
 
@@ -166,10 +172,10 @@
 
 .lots__card-list {
   display: flex;
-  gap: 25px;
-  width: 100px;
-  margin-bottom: 30px;
-  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:25px;
+  margin-bottom:30px;
 }
 
 .lots__look-more-link {
@@ -187,10 +193,6 @@
   height: 100%;
   text-decoration: none;
   transition: transform 0.3s ease;
-}
-
-.card-link:hover {
-  transform: translateY(-5px);
 }
 
 .card {
