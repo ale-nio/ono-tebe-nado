@@ -94,7 +94,6 @@
 
 .header__logo {
   display: block;
-  justify-self: center;
   width: 148px;
   height: 105px;
   transition: transform 0.3s ease;
@@ -171,11 +170,14 @@
 }
 
 .lots__card-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap:25px;
-  margin-bottom:30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+  flex-wrap: wrap;
+  min-height:563px;
+  list-style: none;
+  gap: 24px;
+  margin-bottom:55px;
+
 }
 
 .lots__look-more-link {
@@ -200,9 +202,9 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
-  padding: 50px 40px;
+  min-width: 334px;
+  min-height: 563px;
+  padding: 51px 48px 48px;
   color: #fff;
 }
 
@@ -270,6 +272,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: normal;
+ 
 }
 
 .footer {
