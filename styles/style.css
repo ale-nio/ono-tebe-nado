@@ -255,6 +255,7 @@ letter-spacing-extended {
 .about__logo {
   display: flex;
   justify-content: center;
+  position: absolute;
   width: 240px;
   height: 240px;
   margin-right: 72px;
