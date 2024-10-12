@@ -9,7 +9,7 @@
     <link href="./styles/global.css" rel="stylesheet" />
     <link href="./styles/style.css" rel="stylesheet" />
   </head>
-  <body class="not-responsive-static-layout">
+  <body>
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
@@ -24,48 +24,29 @@
           </li>
         </ul>
       </nav>
-      <a class="header__logo" aria-label="Оно тебе надо главная">
-        <img
-          class="header__logo-image"
-          src="./images/logo-black.svg"
-          alt="Логотип Оно тебе надо"
-          width="195"
-          height="150"
-        />
-      </a>
-      <address class="header__address address">
-        <a class="no-wrap header__address-link" href="tel:+99995555555">
-          +9 999 555 5555
-        </a>
-        <br />
-        <a class="no-wrap header__address-link" href="mailto:info@sobaka.ge">
-          info@sobaka.ge
-        </a>
-        <p>наб. Принсенграхт 263-265, Амстердам</p>
+      <a class="header__logo">
+        <img class="header__logo-image" src="./images/logo-black.svg" alt="Черный логотип оно тебе надо"/></a>
+      <address class="header__address">
+        <a class="address__item" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address__item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address__address-text">
+          наб. Принсенграхт 263-265, Амстердам
+        </p>
       </address>
     </header>
     <main>
       <section class="cover">
         <div class="overlay"></div>
-        <h1 class="cover__title">
-          <span class="aligned-text">
-            о<span class="letter-spacing-extended">но</span>
-          </span>
-          <span class="aligned-text_center">
-            те<span class="letter-spacing-extended">бе</span>
-          </span>
-          <span class="aligned-text_right">
-            <span class="letter-spacing-extended">н</span>aд<span
-              class="no-letter-spacing"
-              >о</span
-            >
-          </span>
+          <h1 class="cover__title">
+            <span class="aligned-text">о<span class="letter-spacing-extended">но</span></span>
+            <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+            <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button" type="button">Сделать ставку</button>
+          <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -125,13 +106,7 @@
       </section>
       <section class="about">
         <div class="about__logo">
-          <img
-            class="about__logo-image"
-            src="./images/logo-white.svg"
-            alt="Логотип Оно тебе надо"
-            width="195"
-            height="150"
-          />
+          <img class="about__logo-image" src ="./images/logo-white.svg" alt="Белый логотип"/>
         </div>
         <div class="about__column">
           <h2 class="about__title">Об аукционе</h2>
@@ -155,14 +130,11 @@
     </main>
     <footer class="footer">
       <address class="address">
-        <a class="no-wrap footer__address-link" href="tel:+99995555555">
-          +9 999 555 5555
-        </a>
-        <br />
-        <a class="no-wrap footer__address-link" href="mailto:info@sobaka.ge">
-          info@sobaka.ge
-        </a>
-        <p>наб. Принсенграхт 263-265, Амстердам</p>
+        <a class="address__item" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address__item" href="mailto:info@sobaka.ge">info@sobaka.ge </a>
+        <p class="address__address-text">
+          наб. Принсенграхт 263-265, Амстердам
+        </p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
@@ -185,45 +157,17 @@
             aria-label="Оно тебе надо на YouTube"
             target="_blank"
           >
-            <img
-              class="footer__social-icon"
-              src="./images/yt.svg"
-              alt="Иконка YouTube"
-              width="48"
-              height="48"
-            />
+            <img class="footer__social-icon" src="./images/yt.svg" alt="Логотип YouTube"/>
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a
-            class="footer__social-link"
-            href="#"
-            aria-label="Оно тебе надо в VK"
-            target="_blank"
-          >
-            <img
-              class="footer__social-icon"
-              src="./images/vk.svg"
-              alt="Иконка VK"
-              width="48"
-              height="48"
-            />
+          <a class="footer__social-link" href="#">
+            <img class="footer__social-icon" src="./images/vk.svg" alt="Логотип ВК"/>
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a
-            class="footer__social-link"
-            href="#"
-            aria-label="Оно тебе надо на Pinterest"
-            target="_blank"
-          >
-            <img
-              class="footer__social-icon"
-              src="./images/pinterest.svg"
-              alt="Иконка Pinterest"
-              width="48"
-              height="48"
-            />
+          <a class="footer__social-link" href="#">
+            <img class="footer__social-icon" src="./images/pinterest.svg" alt="Иконка Pinterest"/>
           </a>
         </li>
       </ul>
