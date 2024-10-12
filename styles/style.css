@@ -257,6 +257,7 @@ letter-spacing-extended {
   justify-content: center;
   width: 240px;
   height: 240px;
+  margin-right: 72px;
   border-radius: 50%;
   background: #000;
 }
