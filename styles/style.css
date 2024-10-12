@@ -168,10 +168,10 @@ letter-spacing-extended {
   grid-template-columns:1fr 1fr 1fr;
   list-style:none;
   gap:25px;
+  margin-bottom: 25px;
 }
 
 .lots__card-list-item {
- 
  display: flex;
  justify-content: space-between;
  flex-direction: column;
@@ -247,11 +247,16 @@ letter-spacing-extended {
   padding: 130px 50px 90px 50px;
 }
 
+.about__column{
+  display:flex;
+  flex-direction: column;
+}
+
 .about__logo {
   display: flex;
+  justify-content: center;
   width: 240px;
   height: 240px;
-  margin: 0 94px;
   border-radius: 50%;
   background: #000;
 }
