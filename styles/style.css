@@ -312,8 +312,8 @@ about__text-div {
 
 
 .footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
   align-items: start;
   padding: 90px 50px;
   margin-bottom: 88px;
