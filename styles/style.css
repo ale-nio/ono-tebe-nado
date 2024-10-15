@@ -38,17 +38,12 @@
 
 .address {
   align-items: start;
-  font-style: normal;
   font-size: 18px;
   white-space: nowrap;
   text-align: right;
   align-self: flex-end;
   justify-self:end;
-  font-style:"Raleway", sans-serif;
-}
-
-.address  a {
-  
+  font-style: "Raleway", sans-serif;
 }
 
 .bet-button {
@@ -71,7 +66,7 @@
   padding: 92px 50px 88px;
 }
 
-.header__address, .footer__address{
+.header__address, .footer__address {
 display:flex;
 flex-direction: column;
 justify-self: end;
