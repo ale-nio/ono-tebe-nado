@@ -50,10 +50,10 @@
 }
 
 .header {
-  display: grid;
-  grid-template-columns:1fr 148px 1fr;
-  align-items: center;
-  padding: 92px 50px 88px;
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ padding: 92px 50px 88px;
 }
 
 .header__address {
@@ -75,6 +75,7 @@ width: 200px;
   gap: 15px;
   font-size: 18px;
   min-width: 342px;
+  margin-top:44px;
 }
 
 .header__links-list-item_no-bullit {
