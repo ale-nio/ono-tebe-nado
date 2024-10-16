@@ -310,14 +310,6 @@ margin-top:23px;
   margin: 180px 50px 88px 50px;
 }
 
-.footer__address {
-display:flex;
-flex-direction: column;
-justify-self: end;
-line-height: 1.3;
-align-items: flex-start;
-width: 200px;
-}
 
 .footer__menu-list {
   text-align: center;
