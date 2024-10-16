@@ -246,7 +246,7 @@ margin-bottom: 25px;
   width:1052px;
   display: grid;
   grid-template-columns:334px 1fr;
-  margin-top:50px;
+  margin-bottom:50px;
 }
 
 .about__column {
@@ -281,7 +281,7 @@ color:#000;
 font-weight: 700;
 text-transform: uppercase;
 margin-bottom:80px;
-
+margin-top:23px;
 }
 
 .about__text-div {
