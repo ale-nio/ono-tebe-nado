@@ -63,12 +63,12 @@ margin-right:30px;
 }
 
 .hf__adress {
-display:flex; 
+display: flex; 
 flex-direction: column; 
 justify-self: end;
 line-height: 1.3; 
 align-items: flex-start; 
-width: 200px; 
+width: 200px;
 }
 
 .address__item {
