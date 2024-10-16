@@ -53,7 +53,7 @@
   display: grid;
   grid-template-columns:1fr 148px 1fr;
   align-items: center;
-  padding: 92px 50px 50px 88px;
+  padding: 92px 50px 88px;
 }
 
 .header__address {
