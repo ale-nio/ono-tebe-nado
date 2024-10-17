@@ -59,7 +59,7 @@
 
 .header__address {
 justify-self: end;
-margin-right:10px;
+margin-right:20px;
 }
 
 .hf__address {
@@ -316,7 +316,7 @@ margin-top:23px;
 .footer__menu-list {
   text-align: center;
   list-style: none;
-  margin-left:23px;
+  margin-left:20px;
 }
 
 .footer__menu-link {
