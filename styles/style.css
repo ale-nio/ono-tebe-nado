@@ -69,6 +69,8 @@ margin-right:30px;
   line-height: 1.3;
   align-items: flex-start;
   width: 200px;
+  font-style:"Raleway", sans-serif;
+  font-size: 18px;
 }
 
 .address__item {
@@ -314,6 +316,7 @@ margin-top:23px;
 .footer__menu-list {
   text-align: center;
   list-style: none;
+  
 }
 
 .footer__menu-link {
